@@ -12,7 +12,6 @@ import seaborn as sns
 df = pd.read_csv("simulated_data_multiple_linear_regression_for_ML.csv")
 print(df.columns)
 
-#exclude ='Gender'
 features = ['age', 'BMI', 'BP','Gender', 'blood_sugar']
 
 X = df[features]
