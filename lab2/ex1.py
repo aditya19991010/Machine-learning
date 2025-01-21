@@ -105,7 +105,7 @@ color = {"whiskers": "black", "medians": "black", "caps": "black"}
 coefs.plot.box(vert=False, color=color)
 plt.axvline(x=0, ymin=-1, ymax=1, color="black", linestyle="--")
 _ = plt.title("Coefficients of Ridge models\n via cross-validation")
-plt.show()
+# plt.show()
 
 def main():
     [X,y] = load_data()
